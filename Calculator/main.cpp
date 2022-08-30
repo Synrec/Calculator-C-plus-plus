@@ -45,6 +45,7 @@ int main() {
 		cout << "v2 = " << v2 << "\n";
 		cout << "Operation is " << operation << "\n";
 		if (!verified) {
+			cout << "Input 'clear or c' to clear input\n";
 			cout << "Input '0x0' to exit\n";
 			cout << "Please enter a number or operator:\n";
 			cin >> input;
